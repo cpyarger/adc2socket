@@ -1,0 +1,350 @@
+    1  uptime
+    2  sudo apt-get update
+    3  sudo apt-get -y upgrade
+    4  ps -ae
+    5  sudo reboo
+    6  sudo reboot
+    7  sudo apt-get upgrade
+    8  sudo apt-get update
+    9  sudo apt-get upgrade
+   10  sudo apt-get -y upgrade
+   11  sudo apt-get -y upgrade&
+   12  ps -ae
+   13  sudo reboot
+   14  sudo apt-get -y upgrade
+   15  iptables -A OUTPUT -p tcp –dport 22 -j DROP
+   16  iptables -A OUTPUT -p tcp --dport 22 -j DROP
+   17  sudo iptables -A OUTPUT -p tcp --dport 22 -j DROP
+   18  ssh osop@10.18.100.54
+   19  exit
+   20  w
+   21  cd /home/
+   22  ls
+   23  adduser angel
+   24  sudo adduser angel
+   25  sudo usermod -a -G sudo angel
+   26  exit
+   27  w
+   28  exit
+   29  w
+   30  exit
+   31  cd .ssh
+   32  ls -l
+   33  mkdir .ssh
+   34  cd .ssh/
+   35  ssh-add ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDIfVh7xxwNsJW28vIGOa8YSgA7R4ooqJ5Yff/kJBtbqBTi93+Kvm6k82j42NDWW1liktIqJPtdGGrC5CT3uysnWH1ZAq2GItn1T5+ZtHAxuayshGwKcPVh5lN5TTHGlX2oiP5+h2bIPhlVUgA+sGgk/UoLUd6KoSwPH+1sr50Fj6tTJD7veQ45rrPJDhRr53OtfMAxES9/dGOPYpqttgpZsp6GKdB0jQb3y8PX/kKgHvzP3SYpplVT37GcyytI1jvGMSEHOgeYmUbxdorOHAv8o0NzIfR3bKVeBTHXxmBt3go/Qvoua733HRKwF/bc9FMRKbKqqCUxjp+7H7vF7n8l cpyarger@wanderer
+   36  ls
+   37  nano authorized_keys
+   38  exit
+   39  locate miniterm.py
+   40  sudo apt-get install minicom 
+   41  sudo raspi-config 
+   42  sudo reboot
+   43  ls
+   44  mkdir adc
+   45  cd adc/
+   46  wget https://odesk-prod-att.s3.amazonaws.com/MC:304365990:1?AWSAccessKeyId=1XVAX3FNQZAFC9GJCFR2&Expires=2147483647&Signature=%2BMF9VTWCa5ZRrtbTQS2rgwDwiSs%3D&response-content-disposition=attachment%3B%20filename*%3DUTF-8''adc2socket.tar
+   47  nano wget
+   48  chmod +x wget 
+   49  ./wget 
+   50  ls
+   51  tar -xvf MC\:304365990\:1\?AWSAccessKeyId\=1XVAX3FNQZAFC9GJCFR2\&Expires\=2147483647\&Signature\=+MF9VTWCa5ZRrtbTQS2rgwDwiSs\=\&response-content-disposition\=attachment\;\ filename\*\=UTF-8\'\'adc2socket.tar 
+   52  tar -xvf ./"MC\:304365990\:1\?AWSAccessKeyId\=1XVAX3FNQZAFC9GJCFR2\&Expires\=2147483647\&Signature\=+MF9VTWCa5ZRrtbTQS2rgwDwiSs\=\&response-content-disposition\=attachment\;\ filename\*\=UTF-8\'\'adc2socket.tar "
+   53  ls
+   54  nano wget 
+   55  rm MC\:304365990\:1\?AWSAccessKeyId\=1XVAX3FNQZAFC9GJCFR2\&Expires\=2147483647\&Signature\=+MF9VTWCa5ZRrtbTQS2rgwDwiSs\=\&response-content-disposition\=attachment\;\ filename\*\=UTF-8\'\'adc2socket.tar 
+   56  ./wget 
+   57  ls
+   58  rm MC\:304365990\:1\?AWSAccessKeyId\=1XVAX3FNQZAFC9GJCFR2\&Expires\=2147483647\&Signature\=+MF9VTWCa5ZRrtbTQS2rgwDwiSs\=\&response-content-disposition\=attachment\;\ filename\*\=UTF-8\'\'adc2socket.tar 
+   59  ls
+   60  tar -xvf adc2socket.tar 
+   61  ls
+   62  cd adc2socket/
+   63  ls
+   64  man scp
+   65  ls
+   66  ./adc2socket 
+   67  sudo apt-get install libjansson4 libjansson-dev 
+   68  ./adc2socket 
+   69  sudo ./adc2socket 
+   70  stty -F /dev/ttyAMA0 38400 time 5 ignbrk -icrnl -ixon -opost -onlcr -isig -icanon -iexten -echo -echoe -echok -echoctl -echoke
+   71  sudo stty -F /dev/ttyAMA0 38400 time 5 ignbrk -icrnl -ixon -opost -onlcr -isig -icanon -iexten -echo -echoe -echok -echoctl -echoke
+   72  sudo cat /dev/ttyAMA0 
+   73  ps -e
+   74  cd ..
+   75  git clone https://github.com/abelectronicsuk/adcpiv2
+   76  sudo apt-get install git0core
+   77  sudo apt-get install git-core
+   78  nmap
+   79  sudo apt-get install nmap
+   80  ls
+   81  cd adc/
+   82  ls
+   83  nano wget 
+   84  cd adc2socket/
+   85  ls
+   86  nano README.txt 
+   87  ./adc2socket 
+   88  sudo ./adc2socket 
+   89  ls
+   90  nano adc2socket 
+   91  nano files2config\ pi/
+   92  nano files2config\ pi/README.txt 
+   93  cd files2config\ pi/
+   94  nano ntp.conf 
+   95  nano ntp_
+   96  nano ntpd_ok.sh 
+   97  sudo./ntpd_ok.sh
+   98  ls
+   99  sudo ./ntpd_ok.sh
+  100  ls
+  101  cat rc.local 
+  102  cd ..
+  103  ls
+  104  nano installing.README 
+  105  exit 
+  106  cd adc/adc2socket/
+  107  nano install
+  108  nano installing.README 
+  109  cd ..
+  110  ls
+  111  mkdir darien.logging
+  112  sudo ./adc/adc2socket/install.darien.sh localhost raspberry 
+  113  ls
+  114  cd adc/adc2socket/
+  115  ls
+  116  ./darien.installer.sh 
+  117  ./darien.installer.sh localhost raspberry
+  118  sudo apt-get install sshpass
+  119  sudo apt-get install sshpass minicom
+  120  ./darien.installer.sh localhost raspberry
+  121  ls
+  122  make
+  123  sudo apt-get install build-essential
+  124  ls
+  125  ./adc2socket 
+  126  sudo minicom -p
+  127  sudo minicom -s
+  128  ls
+  129  nano wiringpiinstaller
+  130  chmod +x wiringpiinstaller 
+  131  ./wiringpiinstaller 
+  132  man gpi
+  133  man gpio
+  134  gpio mode 1 in
+  135  gpio read 1
+  136  watch gpio read 1
+  137  watch -n 1 gpio read 1
+  138  gpio -1 mode 1 in
+  139  watch -n 1 gpio -1 read 1
+  140  mkdir adc2
+  141  cd adc
+  142  cd ../adc2
+  143  nano logger.py
+  144  python logger.py 
+  145  sudo apt-get install  python-pip
+  146  sudo pip install quick2wire
+  147  curl -L  https://q2wi.re/swkey | sudo apt-key add -
+  148  sudo nano /etc/apt/sources.list
+  149  sudo apt-get update 
+  150  sudo apt-get install quick2wire-*
+  151  python logger.py 
+  152  sudo pip install quick2wire
+  153  exit
+  154  w
+  155  cd /var/log/
+  156  cat auth.log
+  157  cat auth.log.3.gz 
+  158  ls
+  159  cat auth.log.1
+  160  exit
+  161  ls
+  162  exit
+  163  ls
+  164  mkdir chris
+  165  cd chris/
+  166  git clone ssh -XC pi@186.73.45.170 -p 27322
+  167  git clone https://github.com/abelectronicsuk/adcpiv2.git
+  168  wget https://github.com/abelectronicsuk/adcpiv2/archive/master.zip
+  169  axel 
+  170  sudo apt-get install axel
+  171  axel -a https://github.com/abelectronicsuk/adcpiv2/archive/master.zip
+  172  sudo ntptine
+  173  sudo ntptime 
+  174  ls
+  175  unzip adcpiv2-master.zip 
+  176  ls
+  177  cd adcpiv2-master/
+  178  ls
+  179  python ad16bit.py 
+  180  cd ..
+  181  got clone https://github.com/quick2wire/quick2wire-python-api.git
+  182  git clone https://github.com/quick2wire/quick2wire-python-api.git
+  183  sudo apt-get install python3 python-pip python-virtualenv 
+  184  cd quick2wire-python-api/
+  185  python3 setup.py install
+  186  sudo apt-get install python-setuptools 
+  187  python3 setup.py install
+  188  sudo apt-get install python3-setuptools 
+  189  history
+  190  python3 setup.py install
+  191  sudo python3 setup.py install
+  192  cd ../adcpiv2-master/
+  193  python3 ad16bit.py 
+  194  cd.. 
+  195  cd ..
+  196  git clone https://github.com/quick2wire/quick2wire-gpio-admin.git
+  197  sudo adduser $USER gpio
+  198  exit
+  199  history
+  200  sudo cp .ssh/ /root/
+  201  sudo cp -r .ssh/ /root/
+  202  ps aux |grep watch
+  203  kill -0 12646 12647
+  204  ps aux |grep adc
+  205  cat /dev/i2c-1
+  206  man gpio-admin 
+  207  groups
+  208  sudo adduser $USER i2c
+  209  exit
+  210  nano .ssh/authorized_keys 
+  211  cd chris/
+  212  cd adcpiv2-master/
+  213  python3 ad16bit.py 
+  214  ls
+  215  python3 adcpiv2.py 
+  216  sudo apt-get install libi2c-dev
+  217  gcc adc.c -o adc
+  218  ./adc 
+  219  watch ./adc 
+  220  watch "./adc "
+  221  watch "./adc 1"
+  222  ./adc 1
+  223  sudo ./adc 1
+  224  cd chris/adcpiv2-master/
+  225  i2cdetect 
+  226  i2cdetect 0
+  227  i2cdetect 1
+  228  nat fuse i2c gpio
+  229  sudo nano /etc/modprobe.d/raspi-blacklist.conf
+  230  sudo nano /etc/modules 
+  231  modprobe i2c-dev
+  232  sudo modprobe i2c-dev
+  233  ls -la /dev/i2c-0
+  234  ls -la /dev/i2
+  235  sudo reboot
+  236  ls -la /dev/i2c-0
+  237  i2cdetect 0
+  238  i2cdetect 1
+  239  i2cdump 1
+  240  i2cdump 1 b
+  241  i2cdump 1 68 b
+  242  i2cdump 1 69 b
+  243  i2cdump 1 b
+  244  i2cdetect 1
+  245  i2cdump 1 0x44 b
+  246  cd chris/adcpiv2-master/
+  247  ./adc 1
+  248  mkdir obe 
+  249  cp adc.c obe/orig adc.c
+  250  cp adc.c obe/orig_adc.c
+  251  nano adc.c
+  252  gcc adc.c -o adc2
+  253  ./adc2 1
+  254  nano adc.c
+  255  gcc adc.c -o adc2
+  256  ./adc2 1
+  257  nano adc.c
+  258  gcc adc.c -o adc2
+  259  ./adc2 1
+  260  ./adc2 1 > buffer
+  261  cat buffer
+  262  ./adc2 1 > buffer
+  263  cat buffer
+  264  ls
+  265  nano adc.c
+  266  gcc adc.c -o adc2
+  267  ./adc2 1
+  268  nano adc.c
+  269  gcc adc.c -o adc2
+  270  nano adc.c
+  271  ./adc2 1
+  272  nano adc.c
+  273  gcc adc.c -o adc2
+  274  ./adc2 
+  275  nano adc.c
+  276  ./adc2 
+  277  nano adc.c
+  278  ./adc2 
+  279  nano adc.c
+  280  gcc adc.c -o adc2
+  281  ./adc2 
+  282  nano adc.c
+  283  ls
+  284  python3 ad16bit.py 
+  285  nano ad16bit.py 
+  286  python3 ad16bit.py 
+  287  nano ad16bit.py 
+  288  python3 ad16bit.py 
+  289  nano ad16bit.py 
+  290  python3 ad16bit.py 
+  291  nano ad16bit.py 
+  292  python3 ad16bit.py 
+  293  nano ad16bit.py 
+  294  python3 ad16bit.py 
+  295  nano ad16bit.py 
+  296  python3 ad16bit.py 
+  297  nano ad16bit.py 
+  298  python3 ad16bit.py 
+  299  nano ad16bit.py 
+  300  python3 ad16bit.py 
+  301  nano ad16bit.py 
+  302  python3 ad16bit.py 
+  303  nano ad16bit.py 
+  304  python3 ad16bit.py 
+  305  nano ad16bit.py 
+  306  python3 ad16bit.py 
+  307  nano ad16bit.py 
+  308  python3 ad16bit.py 
+  309  nano ad16bit.py 
+  310  python3 ad16bit.py 
+  311  nano ad16bit.py 
+  312  python3 ad16bit.py 
+  313  nano ad16bit.py 
+  314  python3 ad16bit.py 
+  315  nano ad16bit.py 
+  316  python3 ad16bit.py 
+  317  nano ad16bit.py 
+  318  python3 ad16bit.py 
+  319  nano ad16bit.py 
+  320  python3 ad16bit.py 
+  321  nano ad16bit.py 
+  322  python3 ad16bit.py 
+  323  python3 ad16bit.py > out.txt
+  324  cat out.txt 
+  325  cat out.txt |grep 1379958885 
+  326  cat out.txt |grep 1379958885 |wc -l
+  327  nano runadc
+  328  python3 adcpiv2.py 
+  329  nano adcpiv2.py
+  330  python3 adcpiv2.py 
+  331  nano adcpiv2.py
+  332  cp ad16bit.py chris.py
+  333  nano chris.py
+  334  python3 chris.py 
+  335  python3 chris.py > out.txt
+  336  cat out.txt 
+  337  cat out.txt |grep 1379959846
+  338  cat out.txt |grep 1379959846|wc -l
+  339  nano chris.py
+  340  python3 chris.py > out2.txt
+  341  cat out2.txt 
+  342  cat out2.txt |grep 1379960245 |wc -l
+  343  date +%s
+  344  history
+  345  cd ..
+  346  git clone https://github.com/cpyarger/adc2socket.git
+  347  cd adc2socket/
+  348  ls
+  349  touch install.sh
+  350  history >  history
